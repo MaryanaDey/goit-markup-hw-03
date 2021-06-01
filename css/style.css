@@ -86,17 +86,14 @@ a {
 }
 
 .nav-list .item :hover,
-.nav-list .item :focus {
-    color: var(--pretty-color);
+.nav-list .item :focus, 
+.auth-list .item :hover,
+.auth-list .item :focus {
+  color: var(--pretty-color);
 }
 
-.auth-list .item :hover,
-.auth-list .item :focus     {
-    color: var(--pretty-color);
-} 
-
 .nav-list .item:last-child{
-margin-right: 0;
+  margin-right: 0;
 } 
 
 .nav-list .link {
@@ -270,7 +267,7 @@ margin-right: 0;
   color: var(--grey-color);
   font-weight: normal;
   font-size: 14px;
-  
+
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
